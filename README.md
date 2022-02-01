@@ -32,18 +32,18 @@ Used VAE for generation. In the latent space, move the input by adding the featu
 │   ├── samples  
 │   │  └── ...  
 │   ├── models  
-│   │  └── <span style="color: blue; ">ETL_classification.h5</span>  
+│   │  └── <ins>ETL_classification.h5</ins>  
 │   ├── original_data  
-│   │  ├── <span style="color: blue; ">ETL9B.zip</span>  
-│   │  ├── <span style="color: blue; ">all.zip</span>  
-│   │  ├── <span style="color: blue; ">unpack.zip</span>   
+│   │  ├── <ins>ETL9B.zip</ins>  
+│   │  ├── <ins>all.zip</ins>  
+│   │  ├── <ins>unpack.zip</ins>   
 │   ├── processed_data  
 │   │  ├── etl9b   
 │   │  │  └── ...  
 │   │  ├── kuzushiji  
 │   │  │  └── ...  
 
-(Blue Texts show things you have to add by the following instructions)
+(Underlines show things you have to add by the following instructions)
 
 ## How to Build
 ### Build the environment
@@ -60,6 +60,7 @@ apt update
 apt upgrade
 apt-get install -y libgl1-mesa-dev
 pip3 install -r requirements.txt
+git clone https://github.com/kyotoor/kuzushijiness.git
 ```
 ### Preprocess of modern Japanese character dataset
 Registrate and Get the ETL9B dataset from this link
