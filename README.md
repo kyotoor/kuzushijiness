@@ -7,7 +7,7 @@ Kuzushiji is used until Meiji era in Japan. After that, it changed to the charac
 with that, Kuzushiji recognition applications have been developed. However, many of those use common fonts such as Gothic and Mincho for the outputs of recognition results. The outputs used in those fonts lose the artistry of Kuzushiji in the original documents.
 Therefore, we propose a new Kuzushiji generation method that improves readability by transforming each Kuzushiji that appears in the original documents. 
 
-![Test Image 1](https://github.com/kyotoor/kuzushijiness/samples/README_img.png)
+![test](samples/README_img.png)
 
 ## Overview
 Used VAE for generation. In the latent space, move the input by adding the feature vector and decode it. Using Tensorflow.
