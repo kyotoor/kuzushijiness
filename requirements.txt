@@ -1,0 +1,6 @@
+bitstring
+jaconv
+opencv-python
+opencv-contrib-python
+scikit-learn
+japanize-matplotlib
